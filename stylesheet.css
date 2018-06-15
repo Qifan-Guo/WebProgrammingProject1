@@ -1,8 +1,9 @@
 body {
-	background: url("images/interlaken-1080.jpg");
+	background: url("images/interlaken-2000.jpg");
 	background-repeat: no-repeat;
-    background-position: 50% 6%; 
+    background-position: 100% 13%; 
     height: 100%;
+    width: cover;
     color: #000000;
 
 }
