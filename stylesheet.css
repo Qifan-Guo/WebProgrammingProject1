@@ -1,29 +1,85 @@
 body {
 	background: url("images/interlaken-1080.jpg");
-	background-repeat: no-repeat;
-    background-position: 100% 4%; 
+	background-repeat: repeat;
+    background-position: 0% 0%; 
+    background-size: 100%;
+    color: #000000;
+
 }
 
 .home {
-	background-color: rgba(0, 0, 0, 0.53);
+	background-color: rgba(255,255,255, 0.7);
 	float: right;
-	width: 45%;
 	position: absolute;
+	width: 45%;
 	right: 0px;
-	padding: 10px 50px 30px 40px;
-	margin-top: 6%;
-	font-size: 120%;
-	color: #ffffff;
-	font-family: 'oswald', sans-serif;
-	font-weight: 300;
-	letter-spacing: 1px;
-	line-height: 1.4em;
-
+	padding: 0px 70px 40px 40px;
+	margin-top: 10%;
 }
 
 .title {
-	font-size: 280%;
+	font-family: 'oswald', sans-serif;
+	font-size: 65px;
 	font-weight: 300;
+	line-height: 1.1em;
+}
+
+.intro{
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.3em;
+	padding-bottom: 15px;
 
 }
 
+
+.trailbtn {
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 15px 5px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	width: 22em;
+}
+
+.hikingtrails {
+	position: relative;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+
+.trailoptions {
+	display: none;
+	position: absolute;
+	background-color: #f6f6f6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	z-index: 1;
+	width: 19.55em;
+	text-align: center;
+}
+
+.trailoptions a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #ffffff;
+}
+
+.trailoptions a :hover {background-color: #e2e2e2}
+
+.hikingtrails:hover .trailoptions {
+	display: block;
+}
+
+.hikingtrails:hover .trailbtn{
+	background-color: #000000;
+}
