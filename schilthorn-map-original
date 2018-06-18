@@ -1,8 +1,8 @@
 #home {
-	background-image: url("images/interlaken-3000.jpg");
+	background-image: url("images/interlaken-2000.jpg");
 	background-repeat: no-repeat;
     background-position: 100% 13%; 
-    height: 150%;
+    height: 100%;
     width: cover;
     color: #000000;
 
@@ -12,10 +12,10 @@
 	background-color: rgba(255,255,255, 0.7);
 	position: absolute;
 	right:0;
-	max-width:700px;
+	max-width:550px;
     margin: auto;
 	padding: 0px 30px 25px 30px;
-	margin-top: 300px;
+	margin-top: 10%;
 }
 
 .intro{
@@ -38,33 +38,33 @@ h1 {
 }
 
 .bar-header {
-	positon: relative;
+	positon: fixed;
 	left:0;
 	width: 100%;
-	background-color: #001a33; 
+	z-index: 999;
+
+}
+
+.bar-header-nav{
+	position: fixed;
+	left: 0;
+	width: 100%;
+	background-color: #243943; 
 	z-index: 999;
 	text-align: center; 
 	color: #ffffff;
-	padding: 1px 10px;
+	padding: 0px 10px;
 	margin: 0px 0px 10px 0px;
+
 }
 
 .status-map {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	position: relative;
 	width: auto;
 	height: auto;
-	padding: 0px 10px;
 }
 
 .area-map {
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	width: auto;
-	height: auto;
-	padding: 0px 10px;
 
 }
 
@@ -94,8 +94,7 @@ h1 {
 .hikingtrails-map {
 	position: fixed;
 	right: 0;
-	top: 150px;
-	display: inline-block;
+	display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
