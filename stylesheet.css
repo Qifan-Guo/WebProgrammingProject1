@@ -1,9 +1,8 @@
 #home {
-	background-image: url("images/interlaken-3000.jpg");
-	background-repeat: no-repeat;
-    background-position: 100% 13%; 
-    height: 150%;
-    width: cover;
+	background-image: url("images/interlaken-2400.jpg");
+	background-repeat: repeat;
+    background-position: 35% 13%; 
+    height: 100%;
     color: #000000;
 
 }
@@ -12,10 +11,10 @@
 	background-color: rgba(255,255,255, 0.7);
 	position: absolute;
 	right:0;
-	max-width:700px;
+	max-width:650px;
     margin: auto;
 	padding: 0px 30px 25px 30px;
-	margin-top: 300px;
+	margin-top: 180px;
 }
 
 .intro{
