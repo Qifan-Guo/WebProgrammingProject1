@@ -1,3 +1,9 @@
 https://www.lotschberg.ch/englisch/holiday-bernese-oberland
 
+<<<<<<< HEAD
 https://www.myswitzerland.com/en-us/interlaken.html
+=======
+https://www.myswitzerland.com/en-us/interlaken.html
+
+https://schilthorn.ch/en/Infos/Live?tr=1#sommer
+>>>>>>> d20b520fa2a2c61a8f961a51e2563787d9064e50
